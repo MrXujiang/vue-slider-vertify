@@ -1,0 +1,8 @@
+[
+  {
+    "compName": "Vertify",
+    "compZhName": "滑动验证码",
+    "compDesc": "这是一个滑动验证码",
+    "compClassName": "vertify"
+  }
+]

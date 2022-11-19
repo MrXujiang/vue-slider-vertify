@@ -1,0 +1,61 @@
+{
+  "name": "vue-slider-vertify",
+  "version": "0.0.1",
+  "author": "alex_xu",
+  "description": "Slide verification component based on vue3",
+  "keywords": [
+    "slider-vertify",
+    "vue-slider-vertify",
+    "component",
+    "components",
+    "design",
+    "framework",
+    "frontend",
+    "vue",
+    "vue-component",
+    "ui",
+    "徐小夕"
+  ],
+  "scripts": {
+    "dev": "vite --config ./build/base.config.ts",
+    "build:doc": "vue-tsc --noEmit && vite build --config ./build/doc.config.ts && node script/copyDir.js",
+    "build:lib": "vue-tsc --noEmit && vite build --config ./build/lib.config.ts",
+    "gen": "node ./script/genNewComp/index.js"
+  },
+  "contributors": [
+    "alex_xu"
+  ],
+  "files": [
+    "dist"
+  ],
+  "main": "dist/vue-slider-vertify.es.js",
+  "module": "dist/vue-slider-vertify.es.js",
+  "typings": "dist/packages/index.d.ts",
+  "homepage": "https://github.com/MrXujiang/vue-slider-vertify",
+  "bugs": {
+    "url": "https://github.com/MrXujiang/vue-slider-vertify/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:MrXujiang/vue-slider-vertify.git"
+  },
+  "dependencies": {
+    "prismjs": "^1.25.0",
+    "vue": "^3.2.23"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "@vitejs/plugin-vue": "^1.10.2",
+    "fs-extra": "^10.0.0",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.2.0",
+    "less": "^4.1.2",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.0",
+    "vite-plugin-copy": "^0.1.6",
+    "vite-plugin-dts": "^0.9.6",
+    "vite-plugin-md": "^0.11.4",
+    "vue-router": "^4.0.12",
+    "vue-tsc": "^0.28.10"
+  }
+}
