@@ -1,6 +1,12 @@
 ## 基于Vue3的滑动验证码组件
 <img src="http://cdn.dooring.cn/dr/slider.gif" style="width:90%" />
 
+## 安装
+
+```bash
+yarn add vue-slider-vertify
+```
+
 ```html
 <template>
   <div>
